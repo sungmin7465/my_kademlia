@@ -6,6 +6,7 @@ import (
 )
 
 func main() {
-	node := kademlia.NewNode()
+	//node := kademlia.NewNodeRandomID()
+	node := kademlia.NewNode("54b94dc2")
 	fmt.Println(node)
 }
